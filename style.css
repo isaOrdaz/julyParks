@@ -1,0 +1,87 @@
+/* written by isabel ordaz */
+body {
+    background-color: #002856;
+    color: #ECAA00;
+    font-family: century-gothic;
+}
+
+.navbar-nav {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.navbar-brand {
+    visibility: hidden;
+    display: block;
+    position: absolute;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(179, 58, 58);
+}
+
+.logo img{
+    float: left;
+}
+
+.container-fluid {
+    margin-top: 25px;
+}
+
+.card {
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #002856;
+}
+
+.card .card-title {
+    color: #002856;
+    font-size: 2rem;
+}
+
+.card-body a {
+    color: #002856;
+    text-decoration: underline;
+}
+
+.card-body i {
+    font-size: 5rem;
+}
+
+.card p {
+    margin-bottom: 2px;
+}
+
+.main {
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 80%;
+}
+
+.btn {
+    background-color: #ECAA00;
+    margin-bottom: 10px;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+@media only screen and (max-width: 1070px){
+    .card {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+    }
+}
+
+/* written isabel ordaz */
