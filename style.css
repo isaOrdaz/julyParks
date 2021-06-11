@@ -1,6 +1,9 @@
 /* written by isabel ordaz */
 body {
-    background-color: #002856;
+    /* background-color: #002856; */
+    background-image: url("/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: fit;
     color: #ECAA00;
     font-family: century-gothic;
 }
